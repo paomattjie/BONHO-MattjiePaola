@@ -185,15 +185,6 @@ footer{
     transform: skew(-2deg,-2deg);
 }
 
- /* grid de aside */
-aside{
-    display: grid;
-    grid-area: aside;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-}
-
 /* medidas y displays para sections */
 .sectionBienvenida{
     height: 100%;
