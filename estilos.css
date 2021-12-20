@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Comfortaa:wght@500&family=Indie+Flower&family=Lobster&family=Noto+Sans:ital@1&family=Patrick+Hand&family=Permanent+Marker&family=Roboto:wght@100&family=Special+Elite&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* COMIENZA NAV */
+.header{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(149,1,1);
+}
+nav{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(149,1,1);
+    justify-content: center;
+    display: flex;
+    flex-flow:row;
+}
+
+nav ul{
+    height: 100%;
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    font-size: 25px;
+    width: 80%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__li--estilo{ 
+    list-style-type:none;
+    font-family: 'Alata', sans-serif;
+    padding-top: 65px;
+    padding-bottom: 66px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(149,1,1);
+    text-align: center;
+    height: 28px;
+}
+
+/* estilo botón de busqueda */
+.boton1{
+    font-family:'Alata', sans-serif;
+    font-size: 22px;
+}
+.boton1:hover{
+    background-color: grey;
+}
+
+input{
+    background-color: white;
+    margin: 60px;
+    align-content: center;
+}
+
+/* imagen de logo */
+.logoMarca{
+    background-color:white;
+    width: 10%;
+    padding: 25px;
+}
+
+/* estilos de la palabra BONHO */
+.titulonav{ 
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding: 36px;
+}
+
+/* TERMINA NAV */
+
+/* ESTILOS BODY */
+.bodyIndex{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+.bodySeccion1{
+    background-color:black;
+    height: 100%;
+    width: 100%;}
+.bodySeccion2{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+.bodySeccion3{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+.bodySeccion4{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+/* ESTILOS FOOTER */
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(3, 19, 31);
+    color: beige;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+}
+
+.titulofooter{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filasfooter{
+    font-family: 'Alata', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    color: thistle;
+}
+
+.imagenesFooter{
+    background-size: 10px;
+    width: 18px;
+}
+
+/* ESTILOS INDEX */
+/* texto de imagen de bombones */
+.parrafo1{
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 48px;
+    margin: 70px;
+    text-align: center;
+}
+
+/* estilos de imagen de bombones */
+.imgBombones{
+    border:ridge;
+    border-width: 5px;
+    border-color: rgb(149,1,1);
+    width: 400px;
+    margin-top: 30px;
+}
+
+/* texto de video de muestra */
+.parrafo2{
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 38px;
+    margin: 70px;
+    text-align: center;}
+
+/* texto antes del footer */
+.parrafo3{
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 48px;
+    margin: 70px;
+    text-align: center;}
+
+ /* grid de aside */
+aside{
+    display: grid;
+    grid-area: aside;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+/* medidas y displays para sections */
+.sectionBienvenida{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.sectionVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* estilos de video de muestra */
+.section__iframe{
+    min-height: 400px;
+    min-width: 350px;
+    border: solid;
+    border-color: rgb(149,1,1);
+}
+
+/* COMIENZA ESTILOS SECCION 1 */
+
+/* estilos bombones por cada chocolate */
+.sectionChocolates{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+/* Titulos "Bombones", "Ramas", "Tabletas" */
+.tituloListas {
+    color: deeppink;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    text-decoration:underline;
+    font-size: 40px;
+    padding: 33px;
+    margin: 5px;
+}
+
+.tiposDeChoco{
+    font-size: 35px;
+    font-family: 'Patrick Hand', cursive;
+    padding:30px;
+    margin-left: 100px;
+    text-align: justify;
+    color: blanchedalmond;
+}
+/*listas de bombones */
+section li{
+    font-family: 'Alata', sans-serif;
+    padding: 5px;
+    margin-left: 300px;
+    list-style:square;
+    font-size: 22px;
+    color: blanchedalmond;
+}
+
+.textoRamas{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 25px;
+    padding: 100px;
+    color: blanchedalmond;
+}
+
+.listaTabletas{
+    padding-bottom: 80px;
+    color: blanchedalmond;
+}
+
+/* ESTILOS SECCION 2 */
+
+/* estilos titulo "Precios Generales" */
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: deeppink;
+    padding-top: 33px;
+    padding-bottom: 8px;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+/* estilos subtitulo entre paréntesis */
+h4{
+    font-size: 22px;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    color: seashell;
+}
+
+/* estilos tablas de precios */
+table{
+    border-color: rosybrown;
+    margin: 25px;
+    margin-left: 200px;
+    font-size: 33px;
+    font-family: 'Alata', sans-serif;
+    color:blanchedalmond
+}
+
+/* celda de encabezado de tabla */
+th{
+    padding: 10px;
+    background-color: rgb(214, 157, 157);
+}
+
+/* celda de datos */
+td{
+    padding: 8px;
+    list-style:square ;
+}
+
+/* ESTILOS SECCION 3 */
+
+/* titulo "¿Cómo comezó todo?" */
+.h1Titulo{
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: deeppink;
+}
+
+/* imagen */
+.imagenPerfil{
+    height: 600px;
+    width: 580px;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+}
+
+/* estilos de parrafos de presenciación */
+.parrafos{
+    font-size: 30px;
+    font-family: 'Alata', sans-serif;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    color:blanchedalmond
+}
+
+/* estilos firma */
+.firma{
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    padding: 20px;
+    margin-right: 300px;
+    text-align: right;
+}
+
+/* ESTILOS SECCION 4 */
+
+/* estilo de formulario */
+form{
+    margin: 40px;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    color: #fff;;
+}
+
+/* titulo "¡Tu opinión nos importa!" */
+h2{
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: hotpink;
+}
+
+/* estilos de Nombres, Apellidos, Email, Elige una opción */
+.formulario{
+    color: darksalmon;
+    font-size: 30px;
+    text-align:justify;;
+    margin: 5px;
+    font-family: 'Alata', sans-serif;
+}
+
+/* inputs Nombres, Apellidos, Email */
+.classInput{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* area de texto de queja */
+.areaOpcion{
+    margin: 60px;
+    font-size: 20px;
+    font-family: 'Alata', sans-serif;
+    color: #fff;
+}
+
+/* estilos de menú desplegable de opciones */
+.options{
+    font-family:'Alata', sans-serif;
+}
+
+/* hover de las opciones */
+option:hover{
+    color:rgb(149,1,1);
+}
+
+.botonEnviar{
+    margin-left: 380px;
+    font-family: 'Alata', sans-serif;
+    font-size: 17px;
+}
+.botonEnviar:hover{
+    color: rgb(167, 69, 69);
+}
+
+/* MEDIA QUERIES INDEX */
+
+@media only screen and (max-width:320px){
+    .bodyIndex{
+        display: grid;
+        grid-template-areas: "header header"
+        "sectionBienvenida sectionVideo"
+        "sectionBienvenida sectionVideo"
+        "aside aside"
+        "footer footer";
+        grid-gap: 15px;
+    }
+    header{ 
+        display: grid;
+        grid-area: header;
+    }
+
+    .boton1{
+        display: none;
+    }
+    .sectionBienvenida{
+        display: grid;
+        grid-area: sectionBienvenida;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sectionVideo{
+        display: grid;
+        grid-area: sectionVideo;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    aside{
+        display: grid;
+        grid-area: aside;
+        font-size: 30px;
+    }
+
+    footer{
+        display: grid;
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bodySeccion1{
+        display: grid;
+        grid-template-areas: "header header"
+        "sectionBombones sectionRamas"
+        "sectionBombones sectionChocolates"
+        "sectionBombones sectionChocolates"
+        "footer footer";
+        grid-gap: 10px;
+    }
+
+    .boton1{
+        display: none;
+    }
+
+    .sectionBombones{
+        display: grid;
+        grid-area: sectionBombones;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .tiposDeChoco{
+        margin: 0;
+    }
+
+    .listaUL{
+        margin:0px
+    }
+    .sectionRamas{
+        display: grid;
+        grid-area: sectionRamas;
+        display: flex;
+        flex-direction: row;    
+    }
+
+    .sectionChocolates1{
+        display: grid;
+        grid-area: sectionChocolates;
+
+    }
+
+    footer{
+        display: grid;
+        grid-area: footer;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+}

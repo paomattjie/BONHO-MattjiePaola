@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bodySeccion4">
+    <header class="navegacion">
+        <nav>
+            <img class="logoMarca" src="imagenes/logoBONHO.jpg" alt="LogoBonho">
+            <h1 class="titulonav">BONHO</h1>
+            <ul>
+                <li class="nav__li--estilo"><a href="index.html">Inicio</a></li>
+                <li class="nav__li--estilo"><a href="seccion1.html">Productos</a></li>
+                <li class="nav__li--estilo"><a href="seccion2.html">Costos</a></li><li class="nav__li--estilo"><a href="seccion3.html">¿Quién Soy?</a></li>
+                <li class="nav__li--estilo"><a href="seccion4.html">Contacto</a></li>
+            </ul>
+    
+            <input class="boton1" type="search" placeholder="Buscar">
+        </nav>
+    </header>
+
+    <section>
+        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+
+            <h2>¡Tu opinión nos importa!</h2>
+            <p>Hacenos saber si cumplimos con tus expectativas</p>
+
+            <p class="formulario">Nombres</p><input class="classInput" type="text"> <br>
+
+            <p class="formulario">Apellidos</p><input class="classInput" type="text"> <br>
+
+            <p class="formulario">Email</p><input class="classInput" type="email" name="Email" placeholder="nombre@ejemplo.com">
+
+        </form>
+
+    </section>
+
+    <section>
+        <p class="formulario">Elige una opción:</p> <select value= "Elige una opción">
+            <option class="options" value="option">Reclamo</option>
+            <option class="options" value="option">Consultas</option>
+            <option class="options" value="option">Recomendaciones</option>
+        </select>
+        <br>
+        <textarea name="area de texto" cols="50" rows="8" placeholder="Escribe aquí el motivo de tu contacto"></textarea> <br>
+        <input class="botonEnviar" type="submit" name="Enviar">
+    </section>
+
+    <footer>
+        <div>
+            <h1 class="titulofooter">Redes Sociales</h1>
+            
+            <a class="filasfooter" href="#">Síguenos en Facebook</a>
+            <img class="imagenesFooter" src="imagenes/logoFacebook.png" alt="logo de facebook"> <br>
+    
+            <a class="filasfooter" href="#">Síguenos en Instagram</a>
+            <img class="imagenesFooter" src="imagenes/logoInstagram.png" alt="logo de instagram"> <br>
+    
+            <a class="filasfooter" href="#">Síguenos en Twitter</a>
+            <img class="imagenesFooter" src="imagenes/logoTwitter.jpeg" alt="logo de twitter">
+        </div>
+    
+        <div>
+            <h1 class="titulofooter">Información de Contacto</h1>
+            
+            <a class="filasfooter" href="#">Paraná 6691, San Isidro, Buenos Aires</a>
+            <img class="imagenesFooter" src="imagenes/iconoUbicacion.png" alt="ubicacion"> <br>
+    
+            <a class="filasfooter" href="#"> +54 9 11 3052 3586</a>
+            <img class="imagenesFooter" src="imagenes/iconoTelefono.jpeg" alt="celular"> <br>
+    
+            <a class="filasfooter" href="#">bonho.chocolatestore@gmail.com</a>
+            <img class="imagenesFooter" src="imagenes/iconoMail.jpeg" alt="mail">
+        </div>
+    </footer>
+</body>
+</html>
