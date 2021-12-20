@@ -181,7 +181,9 @@ footer{
     font-family: 'Alata', sans-serif;
     font-size: 48px;
     margin: 70px;
-    text-align: center;}
+    text-align: center;
+    transform: skew(-2deg,-2deg);
+}
 
  /* grid de aside */
 aside{
